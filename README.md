@@ -52,7 +52,8 @@ MITRE: T1499.
 Test Command:
 nmap -sS -T4 -p- 192.168.64.136 
 (Generates thousands of events rapidly, triggering 203 alerts.)  
-<img width="622" height="276" alt="image" src="https://github.com/user-attachments/assets/9aa531f4-7a91-4261-adff-69094d9c4f5f" />
+<img width="622" height="276" alt="image" src="https://github.com/user-attachments/assets/9aa531f4-7a91-4261-adff-69094d9c4f5f" /> 
+
 ------------------------------------------------------------------------------------ 
 
 Multi-Stage Privilege Escalation (100311, 100312, 100301)
@@ -66,7 +67,7 @@ MITRE: T1110 + T1548.
 
 Test Command:
 for i in {1..6}; do sudo -k; sudo ls /root; done 
-<img width="1836" height="672" alt="image" src="https://github.com/user-attachments/assets/9078a1b0-10da-4c3e-a808-385879678639" />
+<img width="1836" height="672" alt="Screenshot 2025-09-08 001100" src="https://github.com/user-attachments/assets/b644e9c0-e5e7-4f9f-9302-9a96ffd314a0" />
 
 ------------------------------------------------------------------------------------ 
 
