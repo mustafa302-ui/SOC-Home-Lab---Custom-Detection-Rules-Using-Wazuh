@@ -61,6 +61,10 @@ nmap -sS -T4 -p- 192.168.64.136
 (Generates thousands of events rapidly, triggering 203 alerts.)  
 <img width="623" height="276" alt="Screenshot 2025-09-08 005659" src="https://github.com/user-attachments/assets/c9824d23-50a7-495c-9da7-d4bdcae4a175" />
 
+To Get Better Visuals
+
+### Apache Scans Using NMAP - Click Through Rules, Alert and Attacks! 
+- 🌐 [Apache Scan](screenshots/apache_scan) – web scanning activity and correlated alerts.
 ------------------------------------------------------------------------------------ 
 
 Multi-Stage Privilege Escalation (100311, 100312, 100301)
@@ -76,6 +80,8 @@ Test Command:
 for i in {1..6}; do sudo -k; sudo ls /root; done 
 <img width="1836" height="672" alt="Screenshot 2025-09-08 001100" src="https://github.com/user-attachments/assets/b644e9c0-e5e7-4f9f-9302-9a96ffd314a0" />
 
+### Privilege Escalation - Attempts & Alerts 
+- 🛡️ [Privilege Escalation](screenshots/privilege_escalation) – multiple sudo/login failures and escalation detection.
 ------------------------------------------------------------------------------------ 
 
 Lessons Learned
