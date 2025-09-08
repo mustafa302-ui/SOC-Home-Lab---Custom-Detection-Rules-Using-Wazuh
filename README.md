@@ -39,7 +39,7 @@ sudo hydra -l root -P badpw.txt -t 4 -V ssh://192.168.64.136
 
 To Get Better Visuals
 ### SSH Brute Force
-![SSH Brute Force Alert](screenshots/ssh_bruteforce/ssh_bruteforce) 
+- [SSH Brute Force](screenshots/ssh_bruteforce)
 ------------------------------------------------------------------------------------
 
 Apache Web Scanning (100200):
