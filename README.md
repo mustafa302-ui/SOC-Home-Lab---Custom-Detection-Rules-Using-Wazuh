@@ -24,6 +24,8 @@ Architecture:
 
 CURSTOM RULES IMPLEMENTED
 
+------------------------------------------------------------------------------------
+
 SSH Brute Force (100100):
 Description: ≥6 failed SSH logins from the same IP in 120s.
 Why: Detects external brute force attempts.
@@ -34,6 +36,7 @@ hydra -l testuser -P /usr/share/wordlists/rockyou.txt ssh://192.168.64.136
 sudo hydra -l root -P badpw.txt -t 4 -V ssh://192.168.64.136 
 
 <img width="1284" height="423" alt="ssh_bruteforce_attack" src="https://github.com/user-attachments/assets/511c9378-b14e-449a-9fe1-99a090a493cb" />
+
 ------------------------------------------------------------------------------------
 
 Apache Web Scanning (100200):
@@ -43,7 +46,6 @@ MITRE: T1595 (Active Scanning).
 
 Test Command:
 sudo nmap --script http-enum -p80 192.168.64.136 
-------------------------------------------------------------------------------------
 
 Queue Overflow / Event Flood (100201)
 
