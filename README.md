@@ -52,7 +52,7 @@ MITRE: T1499.
 Test Command:
 nmap -sS -T4 -p- 192.168.64.136 
 (Generates thousands of events rapidly, triggering 203 alerts.)  
-<img width="622" height="276" alt="image" src="https://github.com/user-attachments/assets/9aa531f4-7a91-4261-adff-69094d9c4f5f" /> 
+<img width="623" height="276" alt="Screenshot 2025-09-08 005659" src="https://github.com/user-attachments/assets/c9824d23-50a7-495c-9da7-d4bdcae4a175" />
 
 ------------------------------------------------------------------------------------ 
 
