@@ -81,7 +81,7 @@ for i in {1..6}; do sudo -k; sudo ls /root; done
 <img width="1836" height="672" alt="Screenshot 2025-09-08 001100" src="https://github.com/user-attachments/assets/b644e9c0-e5e7-4f9f-9302-9a96ffd314a0" />
 
 ### Privilege Escalation - Attempts & Alerts 
-- 🛡️ [Privilege Escalation](screenshots/privilege_escalation) – multiple sudo/login failures and escalation detection.
+- 🛡️ [Privilege Escalation](screenshots/privlage_escalation) – multiple sudo/login failures and escalation detection.
 ------------------------------------------------------------------------------------ 
 
 Lessons Learned
