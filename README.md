@@ -25,7 +25,8 @@ Architecture:
 ## 📑 Project Report
 
 For a detailed write-up of the detection lab setup, attack simulations, and results, see the full report:  
-📄 [Security Detection Lab Report (PDF)](Security Detection Lab Report.pdf) 
+📄[Security Detection Lab Report (PDF)](Security%20Detection%20Lab%20Report.pdf)
+
 
 CURSTOM RULES IMPLEMENTED
 ------------------------------------------------------------------------------------
