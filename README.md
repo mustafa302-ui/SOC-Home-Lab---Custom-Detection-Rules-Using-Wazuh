@@ -22,8 +22,12 @@ Architecture:
 - Log sources: /var/log/auth.log, Apache2 access/error logs, Wazuh agent internal queue
 - (Insert a simple diagram here: Kali → Ubuntu (agent) → Wazuh Manager → Kibana/alerts) 
 
-CURSTOM RULES IMPLEMENTED
+## 📑 Project Report
 
+For a detailed write-up of the detection lab setup, attack simulations, and results, see the full report:  
+📄 [Security Detection Lab Report (PDF)](Security_Detection_Lab_Report.pdf)
+
+CURSTOM RULES IMPLEMENTED
 ------------------------------------------------------------------------------------
 
 SSH Brute Force (100100):
